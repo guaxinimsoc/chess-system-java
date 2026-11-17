@@ -1,6 +1,9 @@
 package application;
 
+import boardgame.Board;
 import chess.ChessMatch;
+import chess.Color;
+import chess.pieces.King;
 
 public class Program {
 
@@ -10,6 +13,9 @@ public class Program {
 		ChessMatch chessMatch = new ChessMatch();
 		
 		UI.printBoard(chessMatch.getPieces());
+		
+		
+		
 	}
  
 }
